@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smile Life - Tu Aliado en Odontología</title>
+    <style>
+        body {
+            font-family: 'Georgia', serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f7f7f7;
+            color: #333;
+        }
+        header {
+            background-color: #005f73;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        nav {
+            background-color: #0a9396;
+            color: #fff;
+            padding: 15px;
+            text-align: center;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 1.2em;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        section {
+            padding: 20px;
+            max-width: 1200px;
+            margin: auto;
+        }
+        .section-title {
+            font-size: 2em;
+            margin-bottom: 10px;
+        }
+        .project {
+            background-color: #94d2bd;
+            padding: 15px;
+            margin-bottom: 10px;
+            border-radius: 5px;
+        }
+        footer {
+            background-color: #005f73;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Smile Life</h1>
+        <p>Tu Aliado en Odontología</p>
+    </header>
+    <nav>
+        <a href="#about">Sobre Nosotros</a>
+        <a href="#projects">Proyectos</a>
+        <a href="#contact">Contacto</a>
+    </nav>
+    <section id="about">
+        <h2 class="section-title">Sobre Nosotros</h2>
+        <p>Smile Life es una marca de odontología dedicada a ayudar a nuestra comunidad a mejorar su marketing con ideas útiles y prácticas. Nos especializamos en brindar soluciones innovadoras para potenciar la presencia de negocios odontológicos en el mercado.</p>
+    </section>
+    <section id="projects">
+        <h2 class="section-title">Proyectos</h2>
+        <div class="project">
+            <h3>Proyecto 1: Campaña de Marketing Digital</h3>
+            <p>Descripción del proyecto 1...</p>
+        </div>
+        <div class="project">
+            <h3>Proyecto 2: Diseño de Identidad Visual</h3>
+            <p>Descripción del proyecto 2...</p>
+        </div>
+        <!-- Puedes añadir más proyectos aquí -->
+    </section>
+    <section id="contact">
+        <h2 class="section-title">Contacto</h2>
+        <p>Para más información o consultas, puedes contactarnos a través de nuestro correo electrónico: <a href="mailto:contacto@smilelife.com">contacto@smilelife.com</a></p>
+    </section>
+    <footer>
+        <p>&copy; 2024 Smile Life. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
